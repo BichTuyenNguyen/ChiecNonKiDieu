@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chiecnonkidieu.FXMLDocumentController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff3a" height="50.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="50.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ecff1f" height="50.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+         </children>
+         <HBox.margin>
+            <Insets left="10.0" top="10.0" />
+         </HBox.margin>
+      </VBox>
+      <Pane fx:id="pane" prefHeight="400.0" prefWidth="487.0">
+         <children>
+            <Label fx:id="lbgreen" layoutX="11.0" layoutY="31.0" text="1 Triệu" />
+            <Label fx:id="lbblue" layoutX="9.0" layoutY="100.0" text="10 Triệu" />
+            <Label fx:id="lbred" layoutX="11.0" layoutY="171.0" text="5 triệu" />
+            <Label fx:id="lbyellow" layoutX="6.0" layoutY="237.0" text="15 Triệu" />
+         </children>
+      </Pane>
+   </children>
+</HBox>
